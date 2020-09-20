@@ -4,8 +4,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 const Stack = createStackNavigator();
+
 import Home from './pages/home'
-import CreateRecord from './pages/CreateRecords'
+import CreateRecord from './pages/CreateRecord'
 
 const Routes = () => {
     <NavigationContainer>
